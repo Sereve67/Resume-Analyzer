@@ -1,6 +1,4 @@
-# Resume-Analyzer
-The AI-Powered Resume Analyzer automates resume screening using NLP and Machine Learning. It extracts key details like name, skills, experience, and education using spaCy's NER and Regex. A Random Forest Classifier predicts the job category using TF-IDF Vectorization. Built with Streamlit, it provides a user-friendly web interface.
-
+# AI-Powered Resume Analyzer
 
 ## 📌 Project Overview
 The **AI-Powered Resume Analyzer** is a machine learning-based web application that automates resume screening. It extracts key details from resumes and predicts the job category of candidates using **Natural Language Processing (NLP) and Machine Learning (ML)**.
@@ -21,6 +19,9 @@ The **AI-Powered Resume Analyzer** is a machine learning-based web application t
 - **Scikit-Learn** - Machine Learning (Random Forest Classifier)
 - **TF-IDF Vectorization** - Feature extraction
 - **Streamlit** - Web interface
+
+## 🔹 Dataset Used
+This project uses the **Resume.csv** dataset from **Kaggle** to train and evaluate the model.
 
 ## 🔹 How It Works
 1. **Data Processing:** Loads and cleans resume text from CSV.
@@ -66,3 +67,5 @@ The **AI-Powered Resume Analyzer** is a machine learning-based web application t
 ## 🤝 Contributing
 Pull requests are welcome! Please follow best practices and submit issues for any bugs or improvements.
 
+## 📜 License
+This project is licensed under the MIT License.
